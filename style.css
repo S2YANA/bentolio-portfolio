@@ -1,11 +1,11 @@
 body {
-  background: #F9F1F0;
+  background: #D6F0FF;
   font-family: 'Gilroy', Arial, sans-serif;
   margin: 0;
   color: #000;
 }
 .header {
-  background: #FADCD9;
+  background: #B3E5FC;
   border-radius: 20px;
   margin: 24px 0 0 24px;
   max-width: 1392px;
@@ -49,7 +49,7 @@ body {
   gap: 24px;
 }
 .slogan {
-  background: #FADCD9;
+  background: #B3E5FC;
   border-radius: 20px;
   padding: 48px 32px;
   margin-bottom: 24px;
@@ -63,12 +63,12 @@ body {
 .flower-icon {
   width: 119px;
   height: 119px;
-  background: #F8AFA6;
+  background: #A7D8F7;
   border-radius: 50%;
   margin: 34px 0 0 416px;
 }
 .about-card {
-  background: #FADCD9;
+  background: #B3E5FC;
   border-radius: 20px;
   padding: 40px;
   position: relative;
@@ -105,7 +105,7 @@ body {
   border-radius: 20px;
 }
 .work-section {
-  background: #FADCD9;
+  background: #B3E5FC;
   border-radius: 20px;
   padding: 40px;
   margin-bottom: 24px;
@@ -138,7 +138,7 @@ body {
   margin-right: 32px;
 }
 .contact-section {
-  background: #F8AFA6;
+  background: #A7D8F7;
   border-radius: 20px;
   padding: 40px;
   margin-bottom: 24px;
@@ -166,7 +166,7 @@ body {
   border-radius: 50%;
 }
 .socials-section {
-  background: #FADCD9;
+  background: #B3E5FC;
   border-radius: 20px;
   padding: 24px 40px;
   margin-bottom: 40px;
