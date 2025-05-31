@@ -10,7 +10,7 @@ body {
   margin: 24px 0 0 24px;
   max-width: 1392px;
   padding: 24px 48px;
-  position: absolute;
+  width: 100%;
   left: 0;
   right: 0;
   top: 0;
