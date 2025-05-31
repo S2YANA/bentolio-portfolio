@@ -7,16 +7,18 @@ body {
 .header {
   background: #FADCD9;
   border-radius: 20px;
-  margin: 24px auto 0 auto;
-  max-width: 1440px;
-  padding: 24px;
+  margin: 24px 0 0 24px;
+  max-width: 1392px;
+  padding: 24px 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1392px;
-  margin: 0 auto;
 }
 .logo {
   font-size: 25px;
@@ -31,48 +33,46 @@ body {
   margin-left: 32px;
   text-transform: uppercase;
 }
-.intro {
+.main-layout {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 48px auto 0 auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1440px;
+  margin: 140px auto 0 auto;
+  gap: 40px;
+}
+.left-col {
+  flex: 0 0 565px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.slogan {
+  background: #FADCD9;
+  border-radius: 20px;
+  padding: 48px 32px;
+  margin-bottom: 24px;
 }
 .slogan h1 {
   font-size: 56px;
   font-weight: 700;
   margin: 0;
-  max-width: 600px;
+  max-width: 475px;
 }
 .flower-icon {
   width: 119px;
   height: 119px;
   background: #F8AFA6;
   border-radius: 50%;
-  margin-left: 40px;
-}
-.portrait-section {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0;
-}
-.portrait-img {
-  width: 330px;
-  height: 476px;
-  background: #eee url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=476&q=80') center/cover no-repeat;
-  border-radius: 20px;
-}
-.about-section {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0;
+  margin: 34px 0 0 416px;
 }
 .about-card {
   background: #FADCD9;
   border-radius: 20px;
   padding: 40px;
-  max-width: 600px;
   position: relative;
+  margin-bottom: 24px;
 }
 .about-card p {
   font-size: 20px;
@@ -85,19 +85,32 @@ body {
   background: #fff;
   border-radius: 50%;
   position: absolute;
-  left: 40px;
+  left: 24px;
   top: 32px;
 }
-.work-section {
+.right-col {
+  flex: 1 1 800px;
   display: flex;
-  justify-content: center;
-  margin: 40px 0;
+  flex-direction: column;
+  gap: 24px;
 }
-.work-card {
+.portrait-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.portrait-img {
+  width: 330px;
+  height: 476px;
+  background: #eee url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=476&q=80') center/cover no-repeat;
+  border-radius: 20px;
+}
+.work-section {
   background: #FADCD9;
   border-radius: 20px;
   padding: 40px;
-  max-width: 600px;
+  margin-bottom: 24px;
+}
+.work-card {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -114,15 +127,10 @@ body {
   align-items: center;
 }
 .contact-section {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0;
-}
-.contact-card {
   background: #F8AFA6;
   border-radius: 20px;
   padding: 40px;
-  max-width: 600px;
+  margin-bottom: 24px;
 }
 .contact-card h2 {
   font-size: 55px;
@@ -147,16 +155,10 @@ body {
   border-radius: 50%;
 }
 .socials-section {
-  display: flex;
-  justify-content: center;
-  margin: 40px 0 60px 0;
-}
-.socials-card {
   background: #FADCD9;
   border-radius: 20px;
   padding: 24px 40px;
-  display: flex;
-  align-items: center;
+  margin-bottom: 40px;
 }
 .socials-links {
   display: flex;
