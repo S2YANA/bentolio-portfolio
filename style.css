@@ -125,6 +125,17 @@ body {
   box-shadow: 0 2px 8px #0001;
   display: flex;
   align-items: center;
+  position: relative;
+}
+.musea-item {
+  min-height: 120px;
+}
+.musea-img {
+  width: 120px;
+  height: 120px;
+  background: #eee url('https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=120&q=80') center/cover no-repeat;
+  border-radius: 16px;
+  margin-right: 32px;
 }
 .contact-section {
   background: #F8AFA6;
